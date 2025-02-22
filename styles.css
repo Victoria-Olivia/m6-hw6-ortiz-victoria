@@ -5,11 +5,14 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
     background-image: url("images/background.png");
 }
 
-.header {
-    background: #ffffff;
+header {
     padding: 20px 0;
     border-bottom: 3px solid #96c4ff;
 
@@ -62,8 +65,11 @@ nav a {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:flex-start;
     background-color: white;
-    float: left;
     width: 70%;
     padding: 20px;
 }
@@ -72,12 +78,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 10px;
     
-    gap: 10px; /* Adds spacing between icons */ 
 }
 
 .social-icons a {
-    display: inline-block;
+    display: flex;
 }
 
 aside {
@@ -88,9 +94,14 @@ aside {
 aside img {
     box-shadow: 3px 3px 3px black;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0px;
     width: 45px;
     height: auto;
+}
+
+.profile-image {
+    float: left;
+    margin: 0 20px 10px 0;
 }
 
 footer { 
@@ -99,23 +110,10 @@ footer {
     bottom: 0;
     background: #333;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 footer p {
     color: white;
     font-size: 18px;
-}
-
-.main-content {
-    padding: 40px auto;
-}
-
-
-
-.profile-image {
-    margin-right: 0 20px 10px 0;
-    width: 175px;
-    height: fixed;
-    flex-shrink: 0;
 }
