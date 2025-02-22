@@ -44,6 +44,7 @@ h2 {
     align-items: right;
     text-decoration-line: underline;
     text-underline-offset: 2px;
+    margin-bottom: 5px;
 }
 
 p { 
