@@ -39,12 +39,11 @@ h1 {
     color:white
 }
 
-h2 { 
+.social-heading { 
     display: flex;
     align-items: right;
     text-decoration-line: underline;
-    text-underline-offset: 2px;
-
+    text-underline-offset: 3px;
 }
 
 p { 
