@@ -14,7 +14,7 @@ body {
 
 header {
     padding: 20px 0;
-    border-bottom: 3px solid #96c4ff;
+    border-bottom: 3px solid black;
 
 }
 
@@ -31,6 +31,15 @@ header {
     background-color: #96c4ff;
     color: black;
     border-bottom: 1px solid #96c4ff;
+}
+
+.subheading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
