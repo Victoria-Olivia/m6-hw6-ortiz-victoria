@@ -122,6 +122,7 @@ aside img {
 }
 
 footer { 
+    flex: 0 0 auto;
     clear: both;
     position:fixed;
     bottom: 0;
