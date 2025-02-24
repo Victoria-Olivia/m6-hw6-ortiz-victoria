@@ -127,7 +127,7 @@ footer {
     bottom: 0;
     background: pink;
     width: 100%;
-    text-align: right;
+    text-align: flex-end;
     margin-top: auto;
 }
 
