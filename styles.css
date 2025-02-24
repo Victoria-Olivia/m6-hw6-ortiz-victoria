@@ -89,6 +89,7 @@ main {
 
 .social-icons {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
